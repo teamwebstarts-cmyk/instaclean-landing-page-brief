@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-white: #FFFFFF;
+    --color-porcelain: #F5F8F9;
+    --color-navy: #102A43;
+    --color-navy-hover: #173C59;
+    --color-body-slate: #425466;
+    --color-muted-slate: #607285;
+    --color-deep-teal: #007C83;
+    --color-pale-teal: #EAF6F5;
+    --color-brand-gold: #B58B3A;
+    --color-dark-gold: #765A20;
+    --color-technical-border: #DCE5EA;
+    --color-risk-amber: #A65A16;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #425466;
+    background-color: #FFFFFF;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+}
+
+.font-mono-tech {
+  font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Technical 32px grid pattern */
+.bg-tech-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(16, 42, 67, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(16, 42, 67, 0.05) 1px, transparent 1px);
+}
+
+.bg-tech-grid-dense {
+  background-size: 16px 16px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 124, 131, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 124, 131, 0.06) 1px, transparent 1px);
+}
+
+/* Subtle corner inspection marks */
+.inspection-corner-tl {
+  position: relative;
+}
+.inspection-corner-tl::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #007C83;
+  border-left: 2px solid #007C83;
+  pointer-events: none;
+}
+
+/* Subtle industrial shadow */
+.shadow-industrial {
+  box-shadow: 0 16px 48px rgba(16, 42, 67, 0.08);
+}
+
+.shadow-card-subtle {
+  box-shadow: 0 4px 20px rgba(16, 42, 67, 0.04);
+}
+
+/* Precision continuity line animations */
+@keyframes continuityPulse {
+  0%, 100% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 24;
+  }
+}
+
+.animate-continuity-pulse {
+  animation: continuityPulse 3s linear infinite;
+}
