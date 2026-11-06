@@ -93,13 +93,13 @@ export const Footer: React.FC = () => {
                 <MapPin className="w-4 h-4 text-[#007C83] flex-shrink-0 mt-0.5" />
                 <span>
                   <strong>Trinetra Industrial Solutions Pvt. Ltd.</strong><br />
-                  Navi Mumbai / Pune Industrial Corridor, Maharashtra, India
+                  Globally available · India operations
                 </span>
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-[#007C83] flex-shrink-0" />
-                <a href="tel:+912227780000" className="hover:text-[#007C83] transition-colors">
-                  +91 (22) 2778 0000 / +91 98200 48821
+                <a href="tel:+919897577063" className="hover:text-[#007C83] transition-colors">
+                  +91 98975 77063
                 </a>
               </div>
               <div className="flex items-center gap-2.5">

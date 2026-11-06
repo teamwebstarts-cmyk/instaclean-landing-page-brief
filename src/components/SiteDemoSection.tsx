@@ -291,7 +291,7 @@ export const SiteDemoSection: React.FC<SiteDemoSectionProps> = ({ initialVariant
 
               <div className="space-y-4">
                 <a
-                  href="tel:+919820000000"
+                  href="tel:+919897577063"
                   className="flex items-center gap-3 p-3 rounded-lg bg-[#F5F8F9] hover:bg-[#EAF6F5] transition-colors border border-[#DCE5EA] group"
                 >
                   <div className="w-10 h-10 rounded-md bg-white border border-[#DCE5EA] flex items-center justify-center text-[#102A43] group-hover:text-[#007C83]">
@@ -299,7 +299,7 @@ export const SiteDemoSection: React.FC<SiteDemoSectionProps> = ({ initialVariant
                   </div>
                   <div>
                     <div className="text-[11px] font-mono-tech text-[#607285]">TECHNICAL DESK</div>
-                    <div className="text-[14px] font-bold text-[#102A43] group-hover:text-[#007C83]">+91 (22) 2778 0000 / +91 98200 48821</div>
+                    <div className="text-[14px] font-bold text-[#102A43] group-hover:text-[#007C83]">+91 98975 77063</div>
                   </div>
                 </a>
 
@@ -324,7 +324,7 @@ export const SiteDemoSection: React.FC<SiteDemoSectionProps> = ({ initialVariant
                     <div className="text-[11px] font-mono-tech text-[#607285]">HEAD OFFICE & APPLICATION CENTER</div>
                     <div className="text-[13px] leading-[20px] text-[#102A43] font-medium">
                       Trinetra Industrial Solutions Pvt. Ltd.<br />
-                      Navi Mumbai Industrial Belt, Maharashtra 400705, India
+                      Globally available · India operations
                     </div>
                   </div>
                 </div>
