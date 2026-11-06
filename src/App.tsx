@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { CustomerStrip } from './components/CustomerStrip';
+import { IndustryImpact } from './components/IndustryImpact';
 import { ProblemSection } from './components/ProblemSection';
 import { CleaningMechanism } from './components/CleaningMechanism';
 import { InteractiveDemo } from './components/InteractiveDemo';
@@ -72,7 +73,10 @@ export const App: React.FC = () => {
         {/* 3. Customer Reference Strip (CIPLA, TATA MOTORS, RDSO, MAHAGENCO) */}
         <CustomerStrip />
 
-        {/* 4. Problem Statement: The Overlooked Contamination Problem */}
+        {/* 4. Sourced industry context: downtime and electrical safety */}
+        <IndustryImpact />
+
+        {/* 5. Problem Statement: The Overlooked Contamination Problem */}
         <ProblemSection
           onLearnSolution={() => scrollToSection('technology')}
         />
